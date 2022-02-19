@@ -1,0 +1,30 @@
+﻿<Window x:Class="ControlsExperiments.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ControlsExperiments"
+        mc:Ignorable="d"
+        Title="Eksperymenty z kontrolkami" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="TextBox" HorizontalAlignment="Left" Margin="80,64,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <RadioButton Content="1" HorizontalAlignment="Left" Margin="240,66,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="2" HorizontalAlignment="Left" Margin="240,86,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="3" HorizontalAlignment="Left" Margin="240,106,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="4" HorizontalAlignment="Left" Margin="280,66,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="5" HorizontalAlignment="Left" Margin="280,86,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="6" HorizontalAlignment="Left" Margin="280,106,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.5*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+    </Grid>
+</Window>
